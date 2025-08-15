@@ -15,7 +15,7 @@ Absolutely! Here's a paraphrased version written as if I'm actively working on t
 
 
 
-### 🧩 Step 1: Requirement Gathering
+** 🧩 Step 1: Requirement Gathering**
 
 To kick off the dashboard development, I began by identifying the key stakeholders—primarily healthcare domain experts and decision-makers who will be using the dashboard to monitor patient waiting lists. I established a clear point of contact to streamline communication throughout the project.
 
@@ -51,7 +51,7 @@ We’re working with data from **2018 to 2021**
 
 ---
 
-### 📥 Step 2: Data Collection
+** 📥 Step 2: Data Collection**
 
 Power BI offers over 200 connectors to bring in data, but for this project, I selected a centralized folder as the data source. This folder will house all necessary files and support automated refreshes once the dashboard is deployed.
 
@@ -78,7 +78,7 @@ Absolutely! Here's how I’d walk through the process as if I were doing it myse
 
 ---
 
-### 🛠️ Data Transformation Steps
+**🛠️ Step 3. Data Transformation Steps**
 
 There are plenty of transformation techniques available in Power BI—like Pivot/Unpivot, Merge, and Filtering—but for this task, I’m focusing on just three key steps to get things aligned.
 
@@ -137,7 +137,7 @@ Power BI usually auto-detects relationships, but just in case it doesn’t:
 
 ---
 
-### 📊 Visualization Blueprint
+**📊Step 4. Visualization Blueprint**
 
 I’ve already prepared a dashboard blueprint. In real-world scenarios, I’d collaborate with the team to sketch out a wireframe, get stakeholder approval, and then move into development.
 
@@ -147,7 +147,7 @@ Absolutely! Here's how I’d describe the process as if I were the one building 
 
 ---
 
-### 🎨 Dashboard Layout & Design
+**🎨Step 5. Dashboard Layout & Design**
 
 Before diving into the visuals, I always head to the **View** tab and enable **Gridlines** and **Snap to Grid**. These help me align visuals neatly and maintain a clean layout throughout the canvas.
 
@@ -235,17 +235,8 @@ I built a dedicated **tooltip page** with:
 
 Then I enabled **“Allow Use as Tooltip”** in the page settings and linked it to the line chart on the summary page via the **Tooltips** section in formatting.
 
----
-
-### 🎨 Beautifying the Dashboard
-
-For design inspiration, I browsed dashboards on **Google** and **Adobe Stock**. Once I found a style I liked, I used [Color.Adobe.com](https://color.adobe.com) to extract the color palette.
-
-I then jumped into **PowerPoint** or **Canva** to design a custom background using those colors and shapes. After exporting it as a PNG, I set it as the background image for my Power BI canvas.
-
-
-
-### 🧭 Adding Interactivity
+--
+**🧭Step 6: Adding Interactivity**
 
 To make the dashboard more engaging, I added:
 
@@ -254,7 +245,7 @@ To make the dashboard more engaging, I added:
 - **Hover tooltips** for additional context
 
 
-### ✅ Testing & Sharing
+**✅7. Testing & Sharing**
 
 Before publishing, I ran a thorough **User Acceptance Testing (UAT)** session to catch any bugs or data issues. Once everything checked out, I prepared the dashboard for sharing.
 
@@ -262,7 +253,7 @@ I also reviewed **Row Level Security (RLS)** settings to ensure sensitive data i
 
 
 
-### 🔄 Routine Refresh & Maintenance
+**🔄8. Routine Refresh & Maintenance**
 
 And finally—🎉—the dashboard is complete! I scheduled regular data refreshes and documented maintenance steps to keep everything running smoothly.
 
