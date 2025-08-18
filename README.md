@@ -142,21 +142,6 @@ SWITCH(VALUES('Calculation Method'[Calc Method]),
     "Average", "Key Indicators - Patient Wait List (Average)", 
     "Median", "Key Indicators - Patient Wait List (Median)")
 ```
-
-### 📉 Handling No Data Scenarios
-
-```DAX
-NoDataLeft = 
-IF(ISBLANK(CALCULATE(SUM(All_Data[Total]), All_Data[Case_Type] <> "Outpatient")), 
-    "No data for selected criteria", "")
-
-NoDataRight = 
-IF(ISBLANK(CALCULATE(SUM(All_Data[Total]), All_Data[Case_Type] = "Outpatient")), 
-    "No data for selected criteria", "")
-```
-
----
-
 ## 📈 Step 6: Building Dashboard Pages
 
 ### 📌 Summary Page
