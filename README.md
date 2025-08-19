@@ -1,3 +1,6 @@
+<img width="2081" height="1168" alt="image" src="https://github.com/user-attachments/assets/33f1b62d-6709-4b91-9c28-9003e6ec9399" />
+<img width="1042" height="582" alt="image" src="https://github.com/user-attachments/assets/09130e9e-a9a8-4408-bfbc-f888f57a38f0" />
+<img width="318" height="584" alt="image" src="https://github.com/user-attachments/assets/5ef0bc35-908f-4ea3-96e3-3784fbeee529" />
 
 # 📊 End-to-End Power BI Dashboard Development
 
